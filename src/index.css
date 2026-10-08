@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap');
+
+:root {
+  font-family: 'DM Sans', sans-serif;
+  color: #f4f6ff;
+  background: #080b17;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  min-height: 100%;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  min-height: 100svh;
+  margin: 0;
+  background:
+    radial-gradient(ellipse at 12% 18%, rgba(105, 72, 223, 0.21), transparent 36%),
+    radial-gradient(ellipse at 88% 82%, rgba(34, 197, 219, 0.13), transparent 38%),
+    #080b17;
+}
+
+button {
+  font: inherit;
+}
+
+#root {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  min-height: 100svh;
+  width: 100%;
+  padding: 28px 16px;
+}
+
+::selection {
+  color: #ffffff;
+  background: #7157dc;
+}
