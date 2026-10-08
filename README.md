@@ -60,7 +60,3 @@ The UI is split into components with distinct responsibilities:
 ## 📚 Reference
 
 - [React Tutorial: Tic-Tac-Toe](https://react.dev/learn/tutorial-tic-tac-toe)
-
----
-
-*A small project, but an important milestone in my React learning journey. 🚀*
