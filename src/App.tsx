@@ -47,7 +47,7 @@ function GameStatus({ status, isGameOver, onRestart }: { status: string; isGameO
 
       {isGameOver && (
         <Button onClick={onRestart}>
-          Reiniciar partida
+          Restart Match
         </Button>
       )}
     </div>
@@ -80,7 +80,7 @@ function Board() {
   if (winner) {
     status = `Winner: ${winner}`;
   } else if (isDraw) {
-    status = `Empate! Deu Velha!`;
+    status = `Draw! Play again!`;
   } else {
     status = `Next player: ${xIsNext ? "X" : "O"}`;
   }
